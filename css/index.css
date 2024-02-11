@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "architectural";
+  src: url("/resources/fonts/Architectural/Web-TT/Architectural.woff") format("woff");
+}
+@font-face {
+  font-family: "cupcake";
+  src: url("/resources/fonts/jellyka_cuttycupcakes/Jellyka-CuttyCupcakes.woff") format("woff");
+}
+* {
+  color: inherit;
+  margin: 0;
+}
+
+body {
+  font-family: architectural;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+p {
+  font-family: cupcake;
+}
+
+h1 {
+  color: #272e2e;
+}
+
+a {
+  color: #272e2e;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+@media (min-width: 480px) {
+  .col-6-sm {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 50%;
+  }
+}
+
+.bg-primary {
+  background: #272e2e;
+}
+
+.text-secondary {
+  color: #E0EAEB;
+}
+
+.text-white {
+  color: white;
+}
+
+.navbar .container {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 0.75rem 1.5rem;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.pt-1 {
+  padding-top: 0.75rem;
+}
+
+.pt-2 {
+  padding-top: 1.5rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.mr-1 {
+  margin-right: 0.75rem;
+}
+
+.br {
+  border-radius: 20px;
+}
+
+.display-f {
+  display: flex;
+}
+
+.font-lg {
+  font-size: 1.5rem;
+}
+
+.font-xl {
+  font-size: 2rem;
+}
+
+.font-xxl {
+  font-size: 3rem;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.img-container {
+  width: inherit;
+  height: inherit;
+}
+.img-container .img-sec {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}

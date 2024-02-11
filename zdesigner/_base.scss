@@ -1,0 +1,50 @@
+*{
+    color: inherit;
+    margin: 0;
+}
+body{
+    font-family: architectural;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    border: 0;
+    border-top:1px dotted #efefefef
+}
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+p{
+    font-family: cupcake;
+}
+
+
+h1{
+    color:$primary;
+}
+a{
+    color:$primary;
+
+}
+button{
+    color:white;
+    border: 0;
+    background: $primary;
+}
+.error{
+    color: $error;
+    border-color:$error;
+    border-style: solid;    
+}
+.notification{
+   color: $secondary;
+   border-color: $secondary;
+   border-style: solid;  
+}

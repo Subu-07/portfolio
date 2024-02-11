@@ -1,0 +1,10 @@
+.img-container {            
+    width: inherit;
+    height: inherit; 
+
+    .img-sec{
+      width: inherit;
+      height: inherit;
+      object-fit: cover;
+    }
+}
